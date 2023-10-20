@@ -14,7 +14,7 @@ public class Solution {
         int r=sc.nextInt();
         int nfact=fact(n);
         int rfact=fact(r);
-        int nmrfact=(n-r);
+        int nmrfact=fact(n-r);
         int ncr=nfact/(rfact*nmrfact);
         int npr=nfact/nmrfact;
         System.out.println(nfact);
